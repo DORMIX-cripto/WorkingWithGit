@@ -84,7 +84,7 @@
     </sap:WorkflowViewStateService.ViewState>
     <Sequence sap:VirtualizedContainerService.HintSize="468,361" sap2010:WorkflowViewState.IdRef="Sequence_2">
       <Sequence.Variables>
-        <Variable x:TypeArguments="x:String" Name="PALABRA" />
+        <Variable x:TypeArguments="x:String" Name="TINA" />
       </Sequence.Variables>
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
@@ -94,10 +94,10 @@
       <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="434,173" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[&quot;Cambio&quot;]" />
       <Assign sap:VirtualizedContainerService.HintSize="434,105" sap2010:WorkflowViewState.IdRef="Assign_1">
         <Assign.To>
-          <OutArgument x:TypeArguments="x:String">[PALABRA]</OutArgument>
+          <OutArgument x:TypeArguments="x:String">[TINA]</OutArgument>
         </Assign.To>
         <Assign.Value>
-          <InArgument x:TypeArguments="x:String">PALABRA</InArgument>
+          <InArgument x:TypeArguments="x:String">TINA</InArgument>
         </Assign.Value>
       </Assign>
     </Sequence>
